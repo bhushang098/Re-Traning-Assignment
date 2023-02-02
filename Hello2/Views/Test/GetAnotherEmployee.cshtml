@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "GetAnotherEmployee";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h2>GetAnotherEmployee</h2>
+
+
+
+<div>
+    @{
+        HelloMVC.Models.Employee emp = ViewBag.MyEmployee;
+        //You can cange Data recieved from ViewData Dictionary
+        emp.FirstName = "Sanjeev";
+        emp.LastName = "Ranjan";
+        emp.Salary = 15000;
+    }
+    <b>Employee details </b><br />
+    Employee Name: @emp.FirstName @emp.LastName <br />
+    Employee Salary: @emp.Salary.ToString("C")
+
+
+
+</div>

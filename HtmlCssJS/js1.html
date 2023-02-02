@@ -1,0 +1,30 @@
+<HTML>
+<HEAD>
+<TITLE> This is Is javScript Example </TITLE>
+<SCRIPT language="JavaScript">
+
+function Do(i,j)
+{
+	var k = parseInt(i.value) + parseInt(j.value);
+	document.write(k+"<br/>");
+	document.write(eval(parseInt(i.value) * parseInt(j.value))+"<br/>");
+
+	var x = 10;
+	var y = 20;
+	var a = eval("x *y");
+	document.write(a); 
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+	Enter Number <INPUT type="text" id='id1'/><BR>
+	Enter Number <INPUT type="text" id='id2'/>
+	<INPUT type=button value="click" onClick="Do(id1,id2);"/>
+</BODY>
+</HTML>
+
+
+
+
+
+

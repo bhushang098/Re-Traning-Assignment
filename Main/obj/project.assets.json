@@ -1,0 +1,175 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Customer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Print Delegate": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Customer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Customer.dll": {}
+        }
+      },
+      "Delegate Invokation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Delegate Invokation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Delegate Invokation.dll": {}
+        }
+      },
+      "Employee/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Print Delegate": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Employee.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Employee.dll": {}
+        }
+      },
+      "Print Delegate/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Print Delegate.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Print Delegate.dll": {}
+        }
+      },
+      "Product Delegate/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Print Delegate": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Product Delegate.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Product Delegate.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Customer/1.0.0": {
+      "type": "project",
+      "path": "../Customer/Customer.csproj",
+      "msbuildProject": "../Customer/Customer.csproj"
+    },
+    "Delegate Invokation/1.0.0": {
+      "type": "project",
+      "path": "../Delegate Invokation/Delegate Invokation.csproj",
+      "msbuildProject": "../Delegate Invokation/Delegate Invokation.csproj"
+    },
+    "Employee/1.0.0": {
+      "type": "project",
+      "path": "../Employee/Employee.csproj",
+      "msbuildProject": "../Employee/Employee.csproj"
+    },
+    "Print Delegate/1.0.0": {
+      "type": "project",
+      "path": "../Print Delegate/Print Delegate.csproj",
+      "msbuildProject": "../Print Delegate/Print Delegate.csproj"
+    },
+    "Product Delegate/1.0.0": {
+      "type": "project",
+      "path": "../Product Delegate/Product Delegate.csproj",
+      "msbuildProject": "../Product Delegate/Product Delegate.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Customer >= 1.0.0",
+      "Delegate Invokation >= 1.0.0",
+      "Employee >= 1.0.0",
+      "Print Delegate >= 1.0.0",
+      "Product Delegate >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\labuser\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\labuser\\source\\repos\\DotNetLearning\\Main\\Main.csproj",
+      "projectName": "Main",
+      "projectPath": "C:\\Users\\labuser\\source\\repos\\DotNetLearning\\Main\\Main.csproj",
+      "packagesPath": "C:\\Users\\labuser\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\labuser\\source\\repos\\DotNetLearning\\Main\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\labuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\labuser\\source\\repos\\DotNetLearning\\Customer\\Customer.csproj": {
+              "projectPath": "C:\\Users\\labuser\\source\\repos\\DotNetLearning\\Customer\\Customer.csproj"
+            },
+            "C:\\Users\\labuser\\source\\repos\\DotNetLearning\\Delegate Invokation\\Delegate Invokation.csproj": {
+              "projectPath": "C:\\Users\\labuser\\source\\repos\\DotNetLearning\\Delegate Invokation\\Delegate Invokation.csproj"
+            },
+            "C:\\Users\\labuser\\source\\repos\\DotNetLearning\\Employee\\Employee.csproj": {
+              "projectPath": "C:\\Users\\labuser\\source\\repos\\DotNetLearning\\Employee\\Employee.csproj"
+            },
+            "C:\\Users\\labuser\\source\\repos\\DotNetLearning\\Print Delegate\\Print Delegate.csproj": {
+              "projectPath": "C:\\Users\\labuser\\source\\repos\\DotNetLearning\\Print Delegate\\Print Delegate.csproj"
+            },
+            "C:\\Users\\labuser\\source\\repos\\DotNetLearning\\Product Delegate\\Product Delegate.csproj": {
+              "projectPath": "C:\\Users\\labuser\\source\\repos\\DotNetLearning\\Product Delegate\\Product Delegate.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

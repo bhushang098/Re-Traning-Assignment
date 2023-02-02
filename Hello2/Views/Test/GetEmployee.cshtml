@@ -1,0 +1,25 @@
+﻿@using Hello2.Models
+@{
+    ViewBag.Title = "GetEmployee";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h2>GetEmployee</h2>
+<div>
+    @{
+        Employee emp = (Employee)ViewData["MyEmployee"];
+        //You can cange Data recieved from ViewData Dictionary
+        //emp.FirstName = "Sanjeev";
+        //emp.LastName = "Ranjan";
+        //emp.Salary = 15000;
+    }
+
+
+
+    <b>Employee details </b><br />
+    Employee Name: @emp.FirstName @emp.LastName <br />
+    Employee Salary: @emp.Salary.ToString("C")
+    @{ Response.Write("First Name: " + emp.FirstName + " </br>Last Name: " + emp.LastName + "</br> Salary: " + emp.Salary);}
+</div>
